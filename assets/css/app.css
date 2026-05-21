@@ -42,7 +42,7 @@ body {
 .clock-time {
     font-family: 'Digital Display', 'Courier New', Courier, monospace;
     font-size: clamp(3rem, 8vw, 5.75rem);
-    font-weight: 700;
+    font-weight: 500;
     line-height: 0.95;
     letter-spacing: 0.12em;
     font-variant-numeric: tabular-nums;
@@ -55,6 +55,9 @@ body {
     font-size: 1.05rem;
     color: var(--clock-muted);
     text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.05em;
+    font-weight: 500;
 }
 
 .clock-meta {
