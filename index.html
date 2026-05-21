@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Reloj digital estático hecho con HTML, CSS y JavaScript">
+    <meta name="theme-color" content="#000000">
+    <title>Reloj Digital</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+    <section class="dvd-clock" data-clock aria-label="Reloj digital principal">
+        <div class="clock-time" data-clock-time aria-live="polite">00:00:00</div>
+        <div class="clock-date" data-clock-date></div>
+        <div class="clock-meta">
+            <span>Zona horaria: <strong data-clock-timezone>UTC</strong></span>
+        </div>
+    </section>
+
+    <script src="assets/js/clock.js"></script>
+</body>
+</html>
