@@ -23,6 +23,7 @@ body {
     background: #000;
     color: var(--clock-text);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: none;
 }
 
 .dvd-clock {
